@@ -55,7 +55,6 @@ packages = [
 
 [tool.poetry.dependencies]
 aiocache = {extras = ["redis"], version = "^0.12.3"}
-aiohttp = {extras = ["speedups"], version = "^3.11.16"}
 asgi-correlation-id = "^4.3.4"
 asyncpg = "^0.30.0"
 email-validator = "^2.2.0"
@@ -78,6 +77,8 @@ sqlalchemy = "^2.0.40"
 strenum = "^0.4.15"
 typing-extensions = "^4.13.2"
 uvicorn = "^0.34.2"
+aiohttp = "^3.12.12"
+hail = "^0.2.134"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.2"
